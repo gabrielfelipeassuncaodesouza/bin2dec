@@ -1,0 +1,53 @@
+h1 {
+  
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 4em;
+}
+
+body {
+  
+  background-color: #132A30;
+  font-family: 'MuseoModerno', cursive;
+}
+
+#tela {
+  
+  display: flex;
+  justify-content: center;
+}
+
+#visor {
+  
+  width: 15em;
+  height: 2em;
+  border-radius: 2em;
+  font-family: 'MuseoModerno', cursive;
+  font-size: 2.3em;
+  padding: 0.5em;
+  text-align: right;
+}
+
+button {
+  
+  width: 6em;
+  font-size: 2em;
+  font-family: 'MuseoModerno', cursive;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  margin: 0.8em;
+  
+}
+
+button:hover {
+  
+  scale: 1.08
+}
+
+#buttons {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
